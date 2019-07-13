@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		42A4333822D99F49008C45AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A4333722D99F49008C45AC /* AppDelegate.swift */; };
 		42A4333A22D99F49008C45AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A4333922D99F49008C45AC /* ViewController.swift */; };
-		42A4333D22D99F49008C45AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42A4333B22D99F49008C45AC /* Main.storyboard */; };
 		42A4333F22D99F4C008C45AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42A4333E22D99F4C008C45AC /* Assets.xcassets */; };
 		42A4334222D99F4C008C45AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42A4334022D99F4C008C45AC /* LaunchScreen.storyboard */; };
 		42A4334D22D99F4C008C45AC /* NoiseDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A4334C22D99F4C008C45AC /* NoiseDetectorTests.swift */; };
+		42A4335822D9B3E8008C45AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42A4335722D9B3E8008C45AC /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +29,13 @@
 		42A4333422D99F49008C45AC /* NoiseDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoiseDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42A4333722D99F49008C45AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42A4333922D99F49008C45AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		42A4333C22D99F49008C45AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42A4333E22D99F4C008C45AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42A4334122D99F4C008C45AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42A4334322D99F4C008C45AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42A4334822D99F4C008C45AC /* NoiseDetectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoiseDetectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42A4334C22D99F4C008C45AC /* NoiseDetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoiseDetectorTests.swift; sourceTree = "<group>"; };
 		42A4334E22D99F4C008C45AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42A4335722D9B3E8008C45AC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +77,9 @@
 		42A4333622D99F49008C45AC /* NoiseDetector */ = {
 			isa = PBXGroup;
 			children = (
+				42A4335722D9B3E8008C45AC /* Main.storyboard */,
 				42A4333722D99F49008C45AC /* AppDelegate.swift */,
 				42A4333922D99F49008C45AC /* ViewController.swift */,
-				42A4333B22D99F49008C45AC /* Main.storyboard */,
 				42A4333E22D99F4C008C45AC /* Assets.xcassets */,
 				42A4334022D99F4C008C45AC /* LaunchScreen.storyboard */,
 				42A4334322D99F4C008C45AC /* Info.plist */,
@@ -177,9 +177,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42A4335822D9B3E8008C45AC /* Main.storyboard in Resources */,
 				42A4334222D99F4C008C45AC /* LaunchScreen.storyboard in Resources */,
 				42A4333F22D99F4C008C45AC /* Assets.xcassets in Resources */,
-				42A4333D22D99F49008C45AC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,14 +221,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		42A4333B22D99F49008C45AC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				42A4333C22D99F49008C45AC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		42A4334022D99F4C008C45AC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
